@@ -8,3 +8,5 @@ Tecnologias / ferramentas utilizadas:
 - Tailwind CSS
 - PlanetScale
 - Prisma
+- Axios
+- Formik
