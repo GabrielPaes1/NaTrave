@@ -1,3 +1,5 @@
+import { useLocalStorage } from 'react-use'
+
 import {
     createBrowserRouter,
     RouterProvider,
@@ -28,11 +30,10 @@ const router = createBrowserRouter([
         element: <Dashboard />,
     },
     {
-        path: "/profile",
+        path: "/:username",
         element: <Profile />,
     },
 ])
 
-export const Router = () => (
+export const Router = () =>
     <RouterProvider router={router} />
-)
